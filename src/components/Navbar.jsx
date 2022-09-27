@@ -6,7 +6,7 @@ function Navbar() {
 
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
-    //cuando esta true lo pasa a false y vice versa
+    //cuando esta true lo pasa a false y viceversa
     setClicked(!clicked)
   }
   return (
